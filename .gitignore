@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# React / Vite generated files
+dist/
+build/
+**/dist/
+**/build/
+
+# Maven generated files
+target/
+**/target/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded documents and generated files
+uploads/
+**/uploads/
+
+# Logs
+*.log
+logs/
+
+# Java compiled files
+*.class
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
